@@ -1,0 +1,260 @@
+/* large Layout: 1200px.+ +*/
+@media only screen and (min-width: 1201px) { 
+    .mobile_menu { display: none }
+    .element-item { width: 560px }
+}
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .mobile_menu { display: none }
+    ul.sdt_menu li {
+        height: 70px;
+        width: 155px;
+    }
+    ul.sdt_menu { width: 960px }
+    ul.sdt_menu li span span.sdt_link { font-size: 20px }
+    hr { width: 950px }
+    .single_culure { width: 320px }
+    .single_culure:before { width: 120px }
+    .single_culure:after { width: 120px }
+    .home-doctors .common-doctor ul { top: 72% }
+    .project_right {
+        min-height: 633px;
+        min-width: 566px;
+    }
+    ul.brand_list li {
+        display: inline-block;
+        padding: 0px;
+    }
+    .brand_list img { max-width: 84% }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .mobile_menu { display: none }
+    ul.sdt_menu li {
+        height: 70px;
+        width: 118px;
+    }
+    ul.sdt_menu li span span.sdt_link { font-size: 16px }
+    hr { width: 950px }
+    .single_culure { width: 240px }
+    .single_culure:before { width: 80px }
+    .single_culure:after { width: 80px }
+    .single_culure p { width: 220px }
+    .home-doctors .common-doctor ul { top: 72% }
+    .project_right {
+        min-height: 633px;
+        min-width: 566px;
+    }
+    .wellcome_bottom .wellcome_bottom_table .wellcome_bottom_table_cell > h1 {
+        font-size: 45px;
+        width: 563px !important;
+    }
+    ul.sdt_menu li {
+        height: 70px;
+        width: 113px;
+    }
+    ul.sdt_menu { width: 680px }
+    ul.sdt_menu li span span.sdt_link { font-size: 20px }
+    ul.sdt_menu li a img { max-width: 75% }
+    ul.sdt_menu li div.sdt_box {
+        height: 284px;
+        top: 85px;
+        width: 172px;
+    }
+    .heading_style h4 { font-size: 20px }
+    .heading_style h1 { font-size: 33px }
+    hr { width: 701px }
+    .project_right {
+        min-height: 592px;
+        min-width: 419px;
+    }
+    .project_left h3 { font-size: 18px }
+    .count span {
+        font-size: 40px;
+        margin-top: 28px;
+    }
+    .count {
+        margin: 25px auto 20px;
+        max-width: 220px;
+    }
+    .count p {
+        font-size: 13px;
+        margin: 2px;
+    }
+    .another_service h2 { font-size: 32px }
+    .contact_us h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .element-item { width: 350px }
+    .counter_up { padding: 0 }
+    .single_widget h1 { font-size: 16px }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .mobile_menu { display: none }
+    .mainmenu_area { display: none }
+    .share-btn-wrp { display: none }
+    #scrollUp { right: 30px; bottom: 30px;}
+    .wellcome_bottom_area h1 {
+        font-size: 16px;
+        width: 264px;
+    }
+    .heading_style h1 { font-size: 20px }
+    .heading_style h4 { font-size: 16px }
+    .heading_style { padding: 20px 0 }
+    hr { width: 230px }
+    .project_right {
+        min-height: 312px;
+        min-width: 265px;
+    }
+    .count span {
+        font-size: 35px;
+        margin-top: 28px;
+    }
+    .count {
+        margin: 25px auto 20px;
+        max-width: 220px;
+    }
+    .count p {
+        font-size: 13px;
+        margin: 2px;
+    }
+    .single_culure {
+        width: 240px;
+        margin: 0 auto;
+    }
+    .single_culure:before { display: none }
+    .single_culure:after { display: none }
+    .single_culure {
+        float: none;
+        width: 100%;
+    }
+    .single_culure p {
+        font-size: 16px;
+        margin: 0 auto 20px;
+        width: 230px;
+    }
+    .culture_and_values { padding-bottom: 10px }
+    .home-doctors .common-doctor { max-width: 292px }
+    .team-caption {
+        margin: 0 auto;
+        max-width: 292px;
+    }
+    .another_service { padding: 20px 0 }
+    .another_service h2 { font-size: 30px }
+    .another_service p {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0 auto 20px;
+        max-width: 230px;
+    }
+    .contact_text { margin-top: 0 }
+    .contact_us h1 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .my_button_third {
+        font-size: 13px;
+        height: 45px;
+        margin-bottom: 30px;
+        margin-top: 0;
+        width: 170px;
+    }
+    .social_bookmarks {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .form {
+        height: 350px;
+        padding: 25px 0;
+        width: 350px;
+    }
+    .form-control { width: 300px }
+    .single_widget { float: left !important }
+    .another_service {
+        padding: 20px 0;
+        text-align: center;
+    }
+    input[type="text"],
+    textarea { width: 85% }
+    textarea.form-control { width: 85% }
+    .form {
+        height: 320px;
+        width: 300px;
+    }
+    input[type="submit"] {
+        font-size: 16px;
+        height: 35px;
+        margin-left: -171px;
+        margin-top: 2px;
+        width: 78px;
+    }
+    form {
+        margin-top: -55px;
+        padding: 45px 0;
+    }
+    .contact_us_area {
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 328px;
+    }
+    .my_button_third { margin-bottom: 48px }
+    .slicknav_menu {display: block;
+		position: fixed;
+		width: 100%;
+		z-index: 9999999;}
+    .isotope {
+        margin: 0 auto;
+        width: 250px;
+    }
+    .element-item {
+        height: auto;
+        margin-bottom: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .portfolio {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .service_full {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .services {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .element-item h4 {
+        font-size: 13px;
+        margin-top: 0;
+    }
+    .about_us_video { padding: 0 }
+    .counter_up { padding: 0 }
+    .footer_widget_full { padding: 0 }
+	.logo img {
+  border-radius: 5px;
+  margin-left: -13px;
+  margin-top: 50px;
+  max-width: 75%;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .share-btn-wrp { display: none }
+    #scrollUp { opacity: 0; filter: alpha(opacity=0) }
+	.logo img {
+  border-radius: 5px;
+  margin-left: -13px;
+  margin-top: 50px;
+  max-width: 75%;
+}
+
+}
